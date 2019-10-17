@@ -46,6 +46,8 @@
 			<groupId>oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.3</version>
+			<scope>system</scope>
+	     	<systemPath>${project.basedir}/WebContent/WEB-INF/lib/ojdbc6-11.2.0.3.jar</systemPath>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
